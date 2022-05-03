@@ -1,6 +1,5 @@
 #This program calulates y=mx+c
 
-from xml.etree.ElementInclude import include
 from colorama import Fore
 
 
