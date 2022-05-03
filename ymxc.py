@@ -4,7 +4,7 @@ from colorama import Fore
 
 
 def valInputs():
-    print(Fore.RED + "DO NOT INCLUE () OR , ONLY THE NUMBERS")
+    print(Fore.RED + "DO NOT INCLUE () OR , ONLY THE NUMBERS!!")
     x, y = input(Fore.BLUE + "First set of coordinates: ").split()
     if "," in x:
         print(Fore.RED + "ERROR: Must not inclue: ,")
