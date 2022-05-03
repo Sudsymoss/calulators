@@ -4,7 +4,7 @@ from colorama import Fore
 
 
 def valInputs():
-    print(Fore.RED + "DO NOT INCLUE () OR , ONLY THE NUMBERS. \nThe numbers should be formated like: 4 8\nThey must include a space between the numbers!")
+    print(Fore.RED + "DO NOT INCLUE () OR , ONLY THE NUMBERS \nThe numbers should be formated like: 4 8\nThey must include a space between the numbers!")
     x, y = input(Fore.BLUE + "First set of coordinates: ").split()
     if "," in x:
         print(Fore.RED + "ERROR: Must not inclue: ,")
