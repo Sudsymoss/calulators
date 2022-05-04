@@ -3,6 +3,7 @@ from colorama import Fore
 #This is a vein diagram calulator, you can add more values if you want
 #Version: beta-1.0
 #A easier more simple input will be coming soon!
+#Soon maybe a while
 
 def inputVal():
     overall = input("Total: ")
