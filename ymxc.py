@@ -4,7 +4,7 @@ from colorama import Fore
 
 
 def valInputs():
-    print(Fore.RED + "DO NOT INCLUE () OR , ONLY THE NUMBERS \nThe numbers should be formated like: 4 8\nThey must include a space between the numbers!")
+    print(Fore.RED + "DO NOT INCLUE '()' OR ',' ONLY THE NUMBERS \nThe numbers should be formated like: 4 8\nThey must include a space between the numbers!")
     x, y = input(Fore.BLUE + "First set of coordinates: ").split()
     if "," in x:
         print(Fore.RED + "ERROR: Must not inclue: ,")
@@ -20,7 +20,10 @@ def valInputs():
         mx = int(m * x)
         # Subtracting the y value from the mx value to get the c value.
         c = int(y) - mx
-        print(Fore.CYAN + "\nC= " + str(c))
+        print(Fore.CYAN+"=======================")
+        print(Fore.BLUE + "C= " + str(c))
+        print(Fore.GREEN + "equation: " + str(y)+"="+str(m)+"+"+str(c) + Fore.RESET)
+        print(Fore.CYAN + "======================="+Fore.RESET)
 
 
 #runs code
