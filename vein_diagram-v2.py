@@ -40,4 +40,5 @@ def inputVal():
         bOut = int(b)-int(both)
         print(Fore.RED + "\n==================" + Fore.GREEN + "\nGroup A: " + str(aOut) + "\nGroup B: " + str(bOut) + "\nBoth: " + str(both) + "\nNone: " + str(none) + Fore.RED + "\n==================\n")
 
-inputVal() 
+#inputVal() 
+print(Fore.RED + "=======================================\n" + "               !ALERT!\n" + " This program is currently unavailable" + "\n=======================================")
